@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(186, 219, 214);
+    filter: contrast(200%)
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+width: 60%;
+margin: auto;
+text-align: center;
+}
+
+section{
+margin-bottom: 30px;
+}
+
+h1 {
+font-size: 2em;
+margin-bottom: 4px;
+color: rgb(90, 88, 88);
+}
+
+input {
+display: block;
+margin: auto;
+width: 200px;
+height: 30px;
+font-family: inherit;
+text-align: center;
+border-radius: 5px;
+border: 1px solid lightgrey;
+}
+
+button{
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    font-family: inherit;
+    margin: 10px;
+    background-color: brown;
+    color: white;
+}
+
+button:hover{
+    color: brown;
+    background-color: white;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
